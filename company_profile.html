@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylee.css">
+
+    <title>Hello, world!</title>
+</head>
+<style>
+body{
+    min-height:200vh;
+}
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-light.scrolled{
+  background:#000;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-brown text-white">
+        <div class="container">
+            <a class="navbar-brand my-2 fw-bolder text-white" href="index.html">Coco V</a>
+            <button class="navbar-toggler bg-brown" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="all_product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="company_profile.html">Company Profile</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <div class="col mx-2"><a href="box.html" class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                        <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"/>
+                        <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"/>
+                      </svg> </a></div>
+                    <div class="col mx-2"><a href="cart.html" class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                    </svg></a></div>
+                    <div class="col mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg></div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="information">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-4">
+                    <h4 class="fw-bolder text-white text-center mt-5">Company Profile</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container justify-content-center">
+        <div class="row">
+            <div class="col mt-5">
+                <h2><b>INTRODUCTION</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-3">
+                <p class="text-justify"><b>Asa Palmilk (M) Sdn Bhd </b> ditubuhkan pada 5hb Julai 2007. Syarikat ini di miliki sepenuhnya oleh Bumiputera Melayu dengan berobjektifkan perniagaan berasaskan pembuatan,penghilangan serta pengedaran makanan buaab tempatan khasnya produk-produk cokelat. </p>
+                
+                <p class="text-justify text-brown"><b> Asa Palmilk (M) Sdb Bhd </b> was incorporated on 5th July 2007 and is fully 100% own by Malay Bumiputera individuals. its core bussiness is processing, manufacturing and distributing locally made chocolate products.</p>
+
+                <p class="text-justify">Syarikat ini diterjui oleh golongan professional dan usahawan bumiputera yang berpengalaman luas dalam mentadbir dan mengendalikan syarikat serta penghilangan. Syarikat ini juga mempunyai kaki tangan teknikal yang berpengalaman dan pernah terlibat di dalam kerja pembuatan, penghilangan serta pengedaran produk-produk makanan khasnya makanan halal jenama antarangsa.</p>
+
+                <p class="text-justify text-brown"> the company is managedand administered by professionals and successful enterpreneur with proven track records and exensive experiece in business and manufacturing industry. equipped under employmen is strong technical staffing with experiences in processing, manufacturing and distribution of international branded food produtcs.</p>
+
+                <p class="text-justify"> Berasaskan keupayaan kwangan yang stabil serta sokong dari pada pembekal-pembekal serta usaha gigih, <b>Asa Palmilk (M) Sdn.</b> Bhd akan terus bertapak sebagai sebuah syarikat pembuatan makanan halal khasnya sapuan Cokelat yang kukuh dan terus berkmbang sejajar dengan industri pembuatan makanan halal di negara ini.</p>
+
+                <p class="text-justify text-brown">With sufficient financial capabilities and strong support form suppliers, it's believe that with greater effort <b> Asa Palmilk (M) Sdn Bhd </b> could be well poise as the next fundamental player in chocolate industries in tandem with the strong growth in halal foot manufacturing scenario in Malaysia.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-5">
+                <h2><b>COCO-V BACKGROUND</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-3">
+                <p class="text-justify"><b>Asa Palmilk (M) Sdn Bhd </b> began its journey of operations in 2010 focusing on processing, manufacturing and distributing locally made Coco-V Hazelnut and Chocolate Spread. The production is run in our own factory located in Pulau Indah, while the operation team, administered by professionals with proven track records and extensive experience in business and manufacturing industri, is based in Wisma Dato' Shaari in Port Klang.
+                <br>
+                <br>
+                Since the initial production, the company has expanded its market share and aggressive distribution efforts of Coco-V to a number of malaysia's leading hypermarkets competing with various big names the market.
+                <br>
+                <br>
+                Coco-v that comes in two delicious flavours, Hazelnut and Chocolate are produced using well selected premium qualty intredients esuring consumers' satisfaction towards our irresistible indulgence. Coco-V is formulated to become part of the combination of a balanced breakfast that whole families will enjoy, especially as it contains no artificial colouring or preservatives.
+                <br>
+                <br>
+                Being the pioneer among the Muslims to produce chocolate spread with JAKIM's halal certification and utmost support by definitive goals, Coco-V could well be poised as the next fundamental product in chocolate industries in tandem with the strong growth in halal food manufacturing industries in Malaysia and globally.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-5">
+                <h2><b>COMPANY INFO</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-3">
+                <table class="table">
+                    <tr>
+                        <td width="250px">Nama Syarikat <br> <i> Company Profile </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>ASA PALMILK (M) SDN BHD</td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Berdaftar <br> <i> Registered Address </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>TIngkat 5, Wisma Dato' Shaari Kompleks Barter Trade, Lot PT 600, Jalan Pelabuan, 42000 Pelabuhan Klang Selangor Darul Ehsan </td>
+                    </tr>
+                    <tr>
+                        <td>Pejabat Urusan <br> <i> Management Office </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>TIngkat 5, Wisma Dato' Shaari Kompleks Barter Trade, Lot PT 600, Jalan Pelabuan, 42000 Pelabuhan Klang Selangor Darul Ehsan </td>
+                    </tr>
+                    <tr>
+                        <td>Nombor Telefon <br> <i> Office Number </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>603-3165 9619 / 20 / 21</td>
+                    </tr>
+                    <tr>
+                        <td>Fax</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>603-3165 9628</td>
+                    </tr>
+                    <tr>
+                        <td>Laman Web/URL</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>www.mycocov.com <br> www.asaniagaragroup.com <br> Click ASA PALMILK (M) SDN BHD</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>cocov@asagroup.com.my<br>asapalmilk@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Modal Diberkan <br> <i>Authorised Capital</i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>RM. 100.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Struktur Ekuiti <br> <i>Equity Structure</i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>100% Bumiputera</td>
+                    </tr>
+                    <tr>
+                        <td>Setiausaha Syarikat<br> <i>Company Secretary</i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>Shaari Jihin & Associates Sdn Bhd</td>
+                    </tr>
+                    <tr>
+                        <td>Juru Audit<br> <i>Auditors</i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>Messrs. Ismawadee & Co. <br> Chartered Account <br> 18-4 Jalan 15/48A Sentul Raya Boulevard 51000 Kuala Lumpur</td>
+                    </tr>
+                    <tr>
+                        <td>Bank Utama<br> <i>Principal</i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>Hong Leong Berhad ( Port Klang )</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-5">
+                <h2><b>DIRECTOR / SHAREHOLDER PROFILE</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mt-3">
+                <table class="table">
+                    <tr>
+                        <td width="250px">Nama<br> <i> Name </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>Dato' Shaari Bin Mat Jihin</td>
+                    </tr>
+                    <tr>
+                        <td>Tarikh Lahir <br> <i> D.O.B </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>30 Mei 1941</td>
+                    </tr>
+                    <tr>
+                        <td>Kelulusan<br> <i>Qualification</i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>CHARTERED ACCOUNTANT</td>
+                    </tr>
+                </table>
+                <br>
+                <hr>
+                <br>
+                <p><b>JAWATAN / <i>POSITION</i></b></p>
+                <br>
+                <p><b>SYARIKAT / <i>COMPANIES</i></b></p> 
+                <br>
+                <table class="table">
+                    <tr>
+                        <td width="390px">Pengurus Mara <br> <i> (Manager) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1962-1980</td>
+                    </tr>
+                    <tr>
+                        <td>Pengerusi Eksekutif ZYMS Holdings<br> <i> (Excecutive Chairman) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1980-1993</td>
+                    </tr>
+                    <tr>
+                        <td>Pengerusi Eksekutif Kumpulan Syarikat ASA<br> <i> (Excecutive Chairman ASA Group Companies) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1993 - To date</td>
+                    </tr>
+                    <tr>
+                        <td>Pengarah Urusan beberapa Anak Syarikat ASA<br> <i> (Managing Director to several ASA Group Company's) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1993 - To date</td>
+                    </tr>
+                </table>
+                <br>
+                <b> POLITIK / <i>POLITICAL</i></b>
+                <br>
+                <br>
+                <table class="table">
+                    <tr>
+                        <td width="390px">Pengurus Mara <br> <i> (Manager) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1962-1980</td>
+                    </tr>
+                    <tr>
+                        <td>Pengerusi Eksekutif ZYMS Holdings<br> <i> (Excecutive Chairman) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1980-1993</td>
+                    </tr>
+                    <tr>
+                        <td>Pengerusi Eksekutif Kumpulan Syarikat ASA<br> <i> (Excecutive Chairman ASA Group Companies) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1993 - To date</td>
+                    </tr>
+                    <tr>
+                        <td>Pengarah Urusan beberapa Anak Syarikat ASA<br> <i> (Managing Director to several ASA Group Company's) </i></td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>1993 - To date</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-5">
+                    <h4 class="fw-bold text-white">Coco V</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-white">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra nisl et facilisis semper. Sed ut nunc leo. Nullam a dolor non sem ultrices egestas. Fusce tempus urna sem,</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom JS for background color on scrolling -->
+<script>
+$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+</script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
